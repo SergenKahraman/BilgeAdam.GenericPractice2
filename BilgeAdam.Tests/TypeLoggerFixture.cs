@@ -10,9 +10,9 @@ namespace BilgeAdam.Tests
         [Test]
         public void Can_Log_Any_Type()
         {
-            RunTypeLoggerTest<Product>("BilgeAdam.Tests.Dummy.Product,Product,Class");
-            RunTypeLoggerTest<Category>("BilgeAdam.Tests.Dummy.Category,Category,Class,Abstract,ITestInterface");
-            RunTypeLoggerTest<ITestInterface>("BilgeAdam.Tests.Dummy.ITestInterface,ITestInterface,interface");
+            RunTypeLoggerTest<Product>("BilgeAdam.Tests.Dummy.Product,Product,Class,");
+            RunTypeLoggerTest<Category>("BilgeAdam.Tests.Dummy.Category,Category,Class,Abstract,ITestInterface,");
+            RunTypeLoggerTest<ITestInterface>("BilgeAdam.Tests.Dummy.ITestInterface,ITestInterface,Interface,Abstract,");
 
         }
 
